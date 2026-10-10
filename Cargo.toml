@@ -1,0 +1,11 @@
+[package]
+name = "minivpn_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+tun = { version = "0.8", features = ["async"] }
+snow = "0.9"
+rand = "0.8"
+clap = { version = "4.0", features = ["derive"] }
