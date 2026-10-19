@@ -1,0 +1,5 @@
+[hub]
+tun_name = "tun0"
+local_ip = "10.0.0.1"
+remote_ip = "10.0.0.2"
+bind_port = 50001

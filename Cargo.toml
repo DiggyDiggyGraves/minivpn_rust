@@ -1,11 +1,16 @@
-[package]
+k[package]
 name = "minivpn_rust"
 version = "0.1.0"
 edition = "2021"
+authors = ["DiggyDiggyGraves"]
+description = "A lightweight, secure, asynchronous Hub-and-Spoke VPN in Rust secured with Noise_IK"
+license = "MIT"
 
 [dependencies]
-tokio = { version = "1.0", features = ["full"] }
-tun = { version = "0.8", features = ["async"] }
 snow = "0.9"
-rand = "0.8"
-clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+tun = { version = "0.6", features = ["async"] }
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"

@@ -1,0 +1,8 @@
+[spoke]
+tun_name = "tun1"
+local_ip = "10.0.0.2"
+remote_ip = "10.0.0.1"
+bind_port = 50002
+peer_host = "127.0.0.1"
+peer_port = 50001
+hub_pubkey = "a4986a71b2412ce1468c47c5571d71c7c0404d6dd8ab6fba9eace9f887080406"
