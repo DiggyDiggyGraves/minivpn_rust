@@ -1,0 +1,7 @@
+[hub]
+bind_address = "0.0.0.0"
+bind_port = 51820
+local_ip = "10.0.0.1"
+remote_ip = "10.0.0.2"
+virtual_ip = "10.0.0.1"
+tun_name = "tun0"

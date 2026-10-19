@@ -1,0 +1,10 @@
+[spoke]
+bind_address = "0.0.0.0"
+bind_port = 51821
+peer_host = "127.0.0.1"
+peer_port = 51820
+local_ip = "10.0.0.2"
+remote_ip = "10.0.0.1"
+virtual_ip = "10.0.0.2"
+tun_name = "tun1"
+hub_pubkey = "YOUR_HUB_PUBLIC_KEY_HERE"
